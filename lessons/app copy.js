@@ -2,13 +2,11 @@ window.addEventListener('scroll', scroll);
 var an = document.getElementById('tri');
 var nav = document.getElementById('nav');
 var header = document.getElementById('nav');
-an.style.transform = 'translate(-50%,-50%) rotate(' + String(10 * (634 - window.pageYOffset) / 634) + 'deg)';
 var circles = document.querySelectorAll('.animcircle');
 var parimg = document.querySelector('.parallaximgo');
 
 function scroll() {
     //an.style.opacity = (((((window.pageYOffset - an.offsetTop) * -1) + 200) * 0.75) / 617);
-    an.style.transform = 'translate(-50%,-50%) rotate(' + String(10 * (634 - window.pageYOffset) / 634) + 'deg)';
 
     if (window.pageYOffset > 200) {
         nav.style.padding = "20px 0";
