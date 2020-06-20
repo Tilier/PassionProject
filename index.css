@@ -506,3 +506,8 @@ img {
 .zoom:hover::before {
     transform: scale(1);
 }
+
+a {
+	color: black;
+	text-decoration: none;
+}
