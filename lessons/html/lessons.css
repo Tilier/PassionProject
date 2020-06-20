@@ -313,3 +313,7 @@ scode::after {
     content: '>';
     display: inline;
 }
+
+a {
+	text-decoration: none;	
+}
