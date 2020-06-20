@@ -323,15 +323,13 @@ a {
 	text-indent: 30px;	
 }
 
-codearea {
-    background: lightgray;
+codearea pre {
+	padding: 30px;
+	    background: lightgray;
     border-radius: 2px;
     color: black;
     display: inline;
     font-family: 'Roboto Mono', monospace !important;
     font-size: 14px;
-}
-
-codearea pre {
-	padding: 30px;	
+	margin: 20px 0;
 }
