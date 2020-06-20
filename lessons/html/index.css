@@ -361,12 +361,12 @@ background: linear-gradient(318deg, rgba(67,102,255,1) 0%, rgba(91,239,251,1) 10
     -webkit-text-fill-color: transparent;
 }
 
-.lesson:nth-child(2) h3 {
+a .lesson:nth-child(2) h3 {
     filter: hue-rotate(50deg);
     -webkit-filter: hue-rotate(50deg);
 }
 
-.lesson:nth-child(3) h3 {
+a .lesson:nth-child(3) h3 {
     filter: hue-rotate(150deg);
     -webkit-filter: hue-rotate(150deg);
 }
@@ -385,4 +385,8 @@ background: linear-gradient(318deg, rgba(67,102,255,1) 0%, rgba(91,239,251,1) 10
 
 a {
     text-decoration: none;
+}
+
+.text ul {
+	padding: 10px 50px;	
 }
