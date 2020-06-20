@@ -284,6 +284,7 @@ a:hover::after {
 
 .actuallesson .text {
     padding: 0 100px;
+	line-height: 25px;
 }
 
 .actuallesson iframe {
@@ -319,5 +320,5 @@ a {
 }
 
 .indent {
-	text-indent: 15px;	
+	text-indent: 30px;	
 }
