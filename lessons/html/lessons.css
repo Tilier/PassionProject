@@ -317,3 +317,7 @@ scode::after {
 a {
 	text-decoration: none;	
 }
+
+.indent {
+	text-indent: 15px;	
+}
