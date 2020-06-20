@@ -332,6 +332,7 @@ scode::after {
     display: grid;
     grid-template-columns: calc(100% / 3 - 10px) calc(100% / 3 - 20px) calc(100% / 3 - 10px);
     grid-column-gap: 20px;
+	grid-row-gap: 20px;
 }
 
 .lesson {
