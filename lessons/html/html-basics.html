@@ -54,16 +54,16 @@
         <p>The <scode>h2</scode> seems to appear before <scode>h1</scode>. Everything gets mixed up, since the <scode>h2</scode> is now inside the <scode>h1</scode> tag, and the system just gets confused. This is what the code is interpreted as:</p>
         <codearea>
             <pre>
-<div>
-    <h1>
+&lt;div>
+    &lt;h1>
         Hello!
-        <div>
-            <h2>
+        &lt;div>
+            &lt;h2>
             Hello!
-            </h2>
-        </div>
-    </h1>
-</div>
+            &lt;/h2>
+        &lt;/div>
+    &lt;/h1>
+&lt;/div>
             </pre>
         </codearea>
         <p>So what would it look with actually closed tags?</p>
