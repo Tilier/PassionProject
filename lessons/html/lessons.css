@@ -323,8 +323,7 @@ a {
 	text-indent: 30px;	
 }
 
-codearea pre {
-	padding: 30px;
+codearea {
 	    background: lightgray;
     border-radius: 2px;
     color: black;
@@ -332,4 +331,8 @@ codearea pre {
     font-family: 'Roboto Mono', monospace !important;
     font-size: 14px;
 	margin: 20px 0;
+}
+
+codearea pre {
+    padding: 30px;
 }
