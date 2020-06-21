@@ -342,6 +342,6 @@ codearea pre {
     border-radius: 10px;
 }
 
-.text ul {
+.text ul, .text ol {
 	padding: 10px 50px;	
 }
