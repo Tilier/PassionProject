@@ -345,3 +345,9 @@ codearea pre {
 .text ul {
 	padding: 10px 50px;	
 }
+
+.lesson h3, .lesson h4 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
