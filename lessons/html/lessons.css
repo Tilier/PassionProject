@@ -341,3 +341,7 @@ codearea pre {
 	background: rgb(239, 239, 239);
     border-radius: 10px;
 }
+
+.text ul {
+	padding: 10px 50px;	
+}
