@@ -140,16 +140,13 @@ a:hover::after {
     transform: scale(1);
     transform-box: fill-box;
 }
-
 #nav:hover .circle::after {
     animation: 1.5s pulse ease both;
     -webkit-animation: 1.5s pulse ease both;
 }
-
 .circle {
     position: relative;
 }
-
 .circle::before {
     content: "";
     position: absolute;
@@ -234,7 +231,6 @@ a:hover::after {
     height: 100%;
     z-index: -1;
 }
-
 .btn:hover::before {
     transform-origin: center bottom;
     transform: scaleY(1);
@@ -267,7 +263,6 @@ a:hover::after {
     left: 0;
     top: 0;
 }
-
 .btn:focus::after {
     display: block;
 } */
@@ -289,6 +284,7 @@ a:hover::after {
 
 .actuallesson .text {
     padding: 0 100px;
+	line-height: 25px;
 }
 
 .actuallesson iframe {
@@ -309,6 +305,16 @@ scode {
     padding: 0 2px;
 }
 
+ncode {
+    background: lightgray;
+    border-radius: 2px;
+    color: black;
+    display: inline;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    padding: 0 2px;
+}
+
 scode::before {
     content: '<';
     display: inline;
@@ -317,4 +323,33 @@ scode::before {
 scode::after {
     content: '>';
     display: inline;
+}
+
+a {
+	text-decoration: none;	
+}
+
+.indent {
+	text-indent: 30px;	
+}
+
+codearea pre {
+    padding: 30px;
+    font-family: 'Roboto Mono', monospace !important;
+    font-size: 14px;
+    margin: 20px 0;
+	background: rgb(239, 239, 239);
+    border-radius: 10px;
+}
+
+.text ul, .text ol {
+	padding: 10px 50px;	
+}
+
+.leftpad {
+	padding-left: 35px;	
+}
+
+.gray {
+	--bg: rgb(63,63,63);	
 }
