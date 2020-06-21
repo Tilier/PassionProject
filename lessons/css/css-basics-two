@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler's Passion Project - Lesson #1</title>
+    <link href="https://aquarial.ml/GT.css" rel="stylesheet" type="text/css">
+    <link href="../lessons.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="favicon copy.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav" class="section">
+        <div class="fullfull">
+            <div class="left">
+                <h3 id="title">Tyler's Pass<span class="circle">i</span>on Project</h3>
+            </div>
+            <div class="right">
+                <h3><a href="/">Home</a></h3>
+                <h3 id="learn"><a>
+                Learn
+                <ul id="drop">
+                    <li><a href=".">HTML</a></li>
+                    <li><a>CSS</a></li>
+                    </ul>
+                    </a>
+                </h3>
+                <h3><a>About</a></h3>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="lessonhead">
+        <h1>Lesson #3: CSS Basics - Part Two</h1>
+        <h3>From: <a style="--bg:rgb(63, 63, 63);" href=".">CSS</a></h5>
+    </div>
+    
+    <div class="lessonhead actuallesson">
+        <div class="text">
+            <p><h3>CSS is made out of properties and selectors.</h5> Here I’ll explain to you what properties are.
+</p>
+        <p class="indent">So now you know how to specify which elements you want to style. However, there’s no point in using selectors if you don’t use <em>properties.</em></p>
+        <p class="indent">Properties are how you style elements. Each property has a property name, like color or width, and numerous property values. The property values can be numerical, like 7px, or they can be verbal, like blue.</p>
+        <p class="indent">Properties go inside selectors, and once you have specified all the properties for a selector, you show that you are done with that selector by closing it with <ncode>}</ncode>.</p>
+        <p class="indent">Properties always follow a certain format: <ncode>property name: property value</ncode>. For instance: <ncode>color: white</ncode>, <ncode>font-size: 16px</ncode>.</p>
+        <p class="indent">In most of the CSS lessons, we’ll discuss different kinds of properties.</p>
+        </div>
+    </div>
+
+    <script src="../app copy.js"></script>
+</body>
+</html>
