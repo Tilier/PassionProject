@@ -345,3 +345,7 @@ codearea pre {
 .text ul, .text ol {
 	padding: 10px 50px;	
 }
+
+.leftpad {
+	padding-left: 35px;	
+}
