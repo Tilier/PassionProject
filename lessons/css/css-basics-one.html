@@ -69,11 +69,26 @@
           </ul>
           <p>The examples above mean anything that has falls under all of those specifiers. For instance, <ncode>.example.myclass</ncode> would have to be any tag whose classes included <ncode>example</ncode> and <ncode>myclass</ncode>. The thing is, you can assign numerous classes to an element. For instance, you can write: <ncode>&lt;div class=”example myclass”>Hello!&lt;/div></ncode>. All you have to do is put a space between the classes.</p>
           <p class="indent">And, lastly, we’ll discuss using parent elements for specifications.</p>
-          <p class="indent">Note: if you’re wondering what parent elements are, go here: https://passionproject.ml/lessons/html/1#parentelements. Examples of using parents elements for specifications:
+          <p class="indent">Note: if you’re wondering what parent elements are, go here: https://passionproject.ml/lessons/html/html-basics#parentelements. Examples of using parents elements for specifications:
 </p>
+          <p class="indent">Examples of using parents elements for specifications:</p>
+          <ul>
+          <li>.parent .child</li>
+          <li>#parent .child</li>
+          <li>#grandparent .parent #child</li>
+          <li>div .grandparent .child</li>
+          <li>ul li</li>
+          <li>div h1 span .child</li>
+          </ul>
+          <p>The first example, <ncode>.parent .child</ncode>, means any tag with the class of child inside any tag with the class of parent. Now, .parent doesn’t have to be the direct parent. It can be the grandparent, or the great-grandparent — heck, it could be the great-great-great-great-great-great-grandparent, for all we know!</p>
+          <p class="indent">Now that we’ve learned about selectors, here’s an example.</p>
         </div>
         
+        <iframe width="100%" height="300" src="//jsfiddle.net/Aquarial/wzf4gkqe/6/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+        
+        <div class="text">
         <p>Go here for a selectors reference: <a class="gray" href="https://www.w3schools.com/cssref/css_selectors.asp">https://www.w3schools.com/cssref/css_selectors.asp</a></p>
+        </div>
         
     </div>
 
