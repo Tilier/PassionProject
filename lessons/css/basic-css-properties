@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler's Passion Project - Lesson #4</title>
+    <link href="https://aquarial.ml/GT.css" rel="stylesheet" type="text/css">
+    <link href="../lessons.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="favicon copy.ico" rel="shortcut icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav" class="section">
+        <div class="fullfull">
+            <div class="left">
+                <h3 id="title">Tyler's Pass<span class="circle">i</span>on Project</h3>
+            </div>
+            <div class="right">
+                <h3><a href="/">Home</a></h3>
+                <h3 id="learn"><a>
+                Learn
+                <ul id="drop">
+                    <li><a href=".">HTML</a></li>
+                    <li><a>CSS</a></li>
+                    </ul>
+                    </a>
+                </h3>
+                <h3><a>About</a></h3>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="lessonhead">
+        <h1>Lesson #4: Basic CSS Properties</h1>
+        <h3>From: <a style="--bg:rgb(63, 63, 63);" href=".">CSS</a></h5>
+    </div>
+    
+    <div class="lessonhead actuallesson">
+        <div class="text">
+            <p><h3>CSS is made out of properties and selectors.</h5> Here I’ll explain to you what selectors are.
+</p>
+        <p class="indent">In CSS, you have to specify what you want to style. For instance, you might want to color one <scode>div</scode> green, and one <scode>div</scode> blue. How do you do this? You use selectors. Now, in HTML, you can give any element classes and IDs. You do this simply by adding in class=”something” or id=”something” in the element. For instance, <scode>div class=”class” id=”id”</scode>. Here’s an example:</p>
+        </div>
+        <iframe width="100%" height="300" src="//jsfiddle.net/Aquarial/opsf1dmq/1/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+        <div class="text">
+          <p>You might not see any difference than just writing <scode>h1>Hello!&lt;/h1</scode>. Until you add CSS.</p>
+        </div>
+        <iframe width="100%" height="300" src="//jsfiddle.net/Aquarial/1jf60hdq/1/embedded/html,css,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+        <div class="text">
+          <p>I’d like you to go to the CSS tab in the example and take a look at the CSS. Take a close look, and then I’ll explain in further detail.</p>
+          <p class="indent">To reference different elements, you need to specify which element(s) that you are styling. To reference all elements with a certain class, you use .myclass, or .example, or whatever class that you are referencing after a dot. For an ID, you want to type a # and then the ID, for example #myID or #example. And then, for any element with a certain tag, you just type the tag, like <ncode>div</ncode> or <ncode>h1</ncode> without &lt; or >. Then, you have to specify which properties you want that selector to style. Here’s the format you use:</p>
+          <codearea>
+            <pre>
+.example {
+    color: red;
+    background: lightblue;
+}</pre>
+          </codearea>
+          <p>You put all the properties inside the brackets.</p>
+          <p class="indent">You can also do more specific selectors. For instance, you can smush two selectors together. Here are some examples of that:</p>
+          <ul>
+            <li><ncode>color</ncode> - defines color of text, all children inherit (v)</li>
+            <li><ncode>background</ncode> - shorthand property for background-image, background-color, background-position, background-size, and more (v): <a class="gray" href="https://www.w3schools.com/cssref/css3_pr_background.asp">https://www.w3schools.com/cssref/css3_pr_background.asp</a></li>
+            <li><ncode>font-family</ncode> - specifies the font face, all children inherit (v)</li>
+            <li><ncode>font-size</ncode> - specifies the size of the text (n)</li>
+            <li><ncode>width</ncode> - specifies the width of an element (n)</li>
+            <li><ncode>height</ncode> - specifies the height of an element (n)</li>
+            <li><ncode>position</ncode> - specifies how the element is positioned (v): <a class="gray" href="https://www.w3schools.com/cssref/pr_class_position.asp">https://www.w3schools.com/cssref/pr_class_position.asp</a></li>
+            <li><ncode>left</ncode> - specifies the left offset, will position differently depending on the value of position (n)</li>
+            <li><ncode>right</ncode> - specifies the right offset, will position differently depending on the value of position (n)</li>
+            <li><ncode>top</ncode> - specifies the top offset, will position differently depending on the value of position (n)</li>
+            <li><ncode>bottom</ncode> - specifies the bottom offset, will position differently depending on the value of position (n)</li>
+            <li><ncode>transform</ncode> - specifies how to move, scale, or stretch a element (v + n): <a class="gray" href="https://www.w3schools.com/cssref/css3_pr_transform.asp">https://www.w3schools.com/cssref/css3_pr_transform.asp</a></p></li>
+            <li><ncode>filter</ncode> -  specifies blur or color change (v + n): <a class="gray" href="https://www.w3schools.com/cssref/css3_pr_filter.asp">https://www.w3schools.com/cssref/css3_pr_filter.asp</a></li>
+            <li><ncode>margin</ncode> - shorthand, specifies the margin of an element — other elements are pushed by margin (n): <a class="gray" href="https://www.w3schools.com/css/css_margin.asp">https://www.w3schools.com/css/css_margin.asp</a></li>
+            <li><ncode>padding</ncode> - shorthand, specifies the padding of an element (n): <a class="gray" href="https://www.w3schools.com/cssref/pr_padding.asp">https://www.w3schools.com/cssref/pr_padding.asp</a></li>
+            <li><ncode>opacity</ncode> - opacity from a scale of 0-1, 0 being completely transparent (n, no unit though)</li>
+            <li><ncode>display</ncode> - specifies how an element is displayed (v): <a class="gray" href="https://www.w3schools.com/cssref/pr_class_display.asp">https://www.w3schools.com/cssref/pr_class_display.asp</a></li>
+          </ul>
+          <p>Thanks to w3schools, we can get a complete CSS reference <a class="gray" href="https://www.w3schools.com/cssref/">here,</a> with all of the CSS properties — probably ever.</p>
+          <p class="indent">Also, v stands for verbal, and n stands for numerical.</p>
+          <p class="indent">I will talk about more properties in later lessons.</p>
+          <br>
+          <br>
+          <div style="text-align: center">
+          <h4>NOTES:</h4>
+            <p><ncode>display</ncode> has two very powerful properties: grid and flex. Here are some suggested articles to read about them:</p>
+            <p><a class="gray" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a></p>
+            <p><a class="gray" href="https://css-tricks.com/snippets/css/complete-guide-grid/">https://css-tricks.com/snippets/css/complete-guide-grid/</a></p>
+            <br>
+            <p>If you’re ever confused, <a class="gray" href="https://w3schools.com/">w3schools.com</a> is a great resource.</p>
+            <br>
+            <p>If you're wondering what a shorthand property is, look <a class="gray" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties#:~:text=Shorthand%20properties%20are%20CSS%20properties,sheets%2C%20saving%20time%20and%20energy.">here.</a></p>
+            <br>
+            <p>To put a note in CSS, place the note inside <ncode>/*</ncode> and <ncode>*/</ncode>.</p>
+          </div>
+        </div>
+        
+    </div>
+
+    <script src="../app copy.js"></script>
+</body>
+</html>
