@@ -349,3 +349,7 @@ codearea pre {
 .leftpad {
 	padding-left: 35px;	
 }
+
+.gray {
+	--bg: rgb(63,63,63);	
+}
